@@ -16,6 +16,7 @@ body {
 }
 
 #canvas1 {
+  max-width: 500px;
   border: 5px solid #fff;
 }
 
