@@ -32,16 +32,16 @@ export default class AsciiEffects {
 	}
 
 	#convertToSymbol(g) {
-		if (g > 250) return '0';
-		else if (g < 240) return '1';
-		else if (g < 230) return '0';
-		else if (g < 200) return '1';
-		else if (g < 180) return '0';
-		else if (g < 150) return '1';
-		else if (g < 120) return '0';
-		else if (g < 100) return '1';
+		if (g > 250) return '#';
+		else if (g < 240) return '%';
+		else if (g < 230) return '$';
+		else if (g < 200) return '&';
+		else if (g < 180) return '-';
+		else if (g < 150) return '=';
+		else if (g < 120) return '^';
+		else if (g < 100) return '3';
 		else if (g < 80) return '0';
-		else if (g < 40) return '1';
+		else if (g < 40) return '@';
 		else if (g < 20) return '0';
 		else if (g < 10) return '1';
 		else return '';
